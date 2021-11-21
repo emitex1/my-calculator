@@ -113,6 +113,8 @@ const MyCalculator = () => {
           <button css={styles.btn} tw="-my-20 mx-10" id="decimal" onClick={handleDecimal}>.</button>
         </div>
       </div>
+
+      <h1 css={[tw`text-center text-lg text-gray-400`]}>Developed By: <a href="http://www.Armoun.com" target="_blank">EmIT</a></h1>
     </>
   );
 }
