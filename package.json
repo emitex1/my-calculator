@@ -33,6 +33,11 @@
       "react-app/jest"
     ]
   },
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
