@@ -84,7 +84,7 @@ const MyCalculator = () => {
   
   return (
     <>
-      <h1 css={[tw`text-center text-6xl`, css`font-family: digital-7`]}>My Calculator</h1>
+      <h1 css={[tw`text-center text-6xl animate-pulse`, css`font-family: digital-7`]}>My Calculator</h1>
 
       <div id="calculator" css={[tw`border-0 mx-auto p-1`, css`width: 21rem`]}>
         <div css={[tw`w-full bg-white text-gray-700 p-2.5 box-border text-5xl h-20 flex justify-end items-center`, css`font-family: digital-7`]} id="display">{replaceSigns(curExpr)}</div>
@@ -114,7 +114,9 @@ const MyCalculator = () => {
         </div>
       </div>
 
-      <h1 css={[tw`text-center text-lg text-gray-400`]}>Developed By: <a href="http://www.Armoun.com" target="_blank" rel="noreferrer">EmIT</a></h1>
+      <h1 css={[tw`text-center text-lg text-gray-400 cursor-pointer hover:animate-ping`]}>
+        <a href="http://www.Armoun.com" target="_blank" rel="noreferrer">Developed By: EmIT</a>
+      </h1>
     </>
   );
 }
