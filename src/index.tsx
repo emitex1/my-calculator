@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import MyCalculator from './MyCalculator';
+import MyCalculator from './components/MyCalculator/MyCalculator';
 import { GlobalStyles } from 'twin.macro'
 import './index.css';
 
