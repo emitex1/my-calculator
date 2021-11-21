@@ -1,0 +1,18 @@
+User Interface
+  ☐ Use animation on buttons
+  ☐ Use pixels in bg
+  ☐ Dark mode
+
+Abilities
+  ☐ Use huge-num
+  ☐ Keyboard click
+  ☐ Define auto deploy yaml file
+
+Refactors
+  ☐ Remove IDs
+  ☐ Use grid instead of flex
+  ☐ Move calculation codes to separate files
+  ☐ Define button component
+
+Documents
+  ☐ Add readme.md file
