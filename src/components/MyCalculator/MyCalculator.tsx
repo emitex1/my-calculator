@@ -87,7 +87,7 @@ const MyCalculator = () => {
       <h1 css={[tw`text-center text-6xl`, css`font-family: digital-7`]}>My Calculator</h1>
 
       <div id="calculator" css={[tw`border-0 mx-auto p-1`, css`width: 21rem`]}>
-        <div tw="w-full bg-white text-gray-700 p-2.5 box-border text-3xl h-20 flex justify-end items-center" id="display">{replaceSigns(curExpr)}</div>
+        <div css={[tw`w-full bg-white text-gray-700 p-2.5 box-border text-5xl h-20 flex justify-end items-center`, css`font-family: digital-7`]} id="display">{replaceSigns(curExpr)}</div>
 
         <div id="buttons" tw="flex justify-center flex-wrap bg-white">
           <button value="C" css={styles.btn} tw="w-40 bg-red-300" id="clear" onClick={handleClear}>Clear</button>
