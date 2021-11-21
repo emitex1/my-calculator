@@ -9,7 +9,7 @@ Abilities
   ☐ Define auto deploy yaml file
 
 Refactors
-  ☐ Remove IDs
+  ✔ Remove IDs @done(21-11-22 01:30)
   ☐ Use grid instead of flex
   ☐ Move calculation codes to separate files
   ☐ Define button component

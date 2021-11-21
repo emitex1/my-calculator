@@ -90,31 +90,31 @@ const MyCalculator = () => {
         <div css={[tw`w-full bg-white text-gray-700 p-2.5 box-border text-5xl h-20 flex justify-end items-center`, css`font-family: digital-7`]} id="display">{replaceSigns(curExpr)}</div>
 
         <div id="buttons" tw="flex justify-center flex-wrap bg-white">
-          <button value="C" css={styles.btn} tw="w-40 bg-red-300" id="clear" onClick={handleClear}>Clear</button>
-          <button value="/" css={styles.btn} tw="bg-indigo-200" id="divide" onClick={handleOperators}>{DEVIDE_SIGN}</button>
-          <button value="*" css={styles.btn} tw="bg-indigo-200" id="multiply" onClick={handleOperators}>{MULTIPLY_SIGN}</button>
+          <button value="C" css={styles.btn} tw="w-40 bg-red-300" onClick={handleClear}>Clear</button>
+          <button value="/" css={styles.btn} tw="bg-indigo-200" onClick={handleOperators}>{DEVIDE_SIGN}</button>
+          <button value="*" css={styles.btn} tw="bg-indigo-200" onClick={handleOperators}>{MULTIPLY_SIGN}</button>
 
-          <button value="7" css={styles.btn} id="seven" onClick={handleNumbers}>7</button>
-          <button value="8" css={styles.btn} id="eight" onClick={handleNumbers}>8</button>
-          <button value="9" css={styles.btn} id="nine" onClick={handleNumbers}>9</button>
-          <button value="-" css={styles.btn} tw="bg-indigo-200" id="subtract" onClick={handleOperators}>-</button>
+          <button value="7" css={styles.btn} onClick={handleNumbers}>7</button>
+          <button value="8" css={styles.btn} onClick={handleNumbers}>8</button>
+          <button value="9" css={styles.btn} onClick={handleNumbers}>9</button>
+          <button value="-" css={styles.btn} tw="bg-indigo-200" onClick={handleOperators}>-</button>
 
-          <button value="4" css={styles.btn} id="four" onClick={handleNumbers}>4</button>
-          <button value="5" css={styles.btn} id="five" onClick={handleNumbers}>5</button>
-          <button value="6" css={styles.btn} id="six" onClick={handleNumbers}>6</button>
-          <button value="+" css={styles.btn} tw="bg-indigo-200" id="add" onClick={handleOperators}>+</button>
+          <button value="4" css={styles.btn} onClick={handleNumbers}>4</button>
+          <button value="5" css={styles.btn} onClick={handleNumbers}>5</button>
+          <button value="6" css={styles.btn} onClick={handleNumbers}>6</button>
+          <button value="+" css={styles.btn} tw="bg-indigo-200" onClick={handleOperators}>+</button>
 
-          <button value="1" css={styles.btn} id="one" onClick={handleNumbers}>1</button>
-          <button value="2" css={styles.btn} id="two" onClick={handleNumbers}>2</button>
-          <button value="3" css={styles.btn} id="three" onClick={handleNumbers}>3</button>
+          <button value="1" css={styles.btn} onClick={handleNumbers}>1</button>
+          <button value="2" css={styles.btn} onClick={handleNumbers}>2</button>
+          <button value="3" css={styles.btn} onClick={handleNumbers}>3</button>
 
-          <button css={styles.btn} tw="h-40 bg-green-100" id="equals" onClick={handleCalculate}>=</button>
-          <button value="0" css={styles.btn} tw="w-40 -my-20 -mx-10" id="zero" onClick={handleNumbers}>0</button>
-          <button css={styles.btn} tw="-my-20 mx-10" id="decimal" onClick={handleDecimal}>.</button>
+          <button css={styles.btn} tw="h-40 bg-green-100" onClick={handleCalculate}>=</button>
+          <button value="0" css={styles.btn} tw="w-40 -my-20 -mx-10" onClick={handleNumbers}>0</button>
+          <button css={styles.btn} tw="-my-20 mx-10" onClick={handleDecimal}>.</button>
         </div>
       </div>
 
-      <h1 css={[tw`text-center text-lg text-gray-400`]}>Developed By: <a href="http://www.Armoun.com" target="_blank">EmIT</a></h1>
+      <h1 css={[tw`text-center text-lg text-gray-400`]}>Developed By: <a href="http://www.Armoun.com" target="_blank" rel="noreferrer">EmIT</a></h1>
     </>
   );
 }
