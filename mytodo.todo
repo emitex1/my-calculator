@@ -6,7 +6,7 @@ User Interface
 Abilities
   ☐ Use huge-num
   ☐ Keyboard click
-  ☐ Define auto deploy yaml file
+  ✔ Define auto deploy yaml file @done(21-11-22 01:52)
 
 Refactors
   ✔ Remove IDs @done(21-11-22 01:30)
