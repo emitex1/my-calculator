@@ -15,6 +15,7 @@ Refactors
   ☐ Use grid instead of flex
   ☐ Move calculation codes to separate files
   ☐ Define button component
+  ☐ Migrate to PostCSS 8
 
 Documents
   ✔ Add readme.md file @done(21-11-22 01:44)
