@@ -13,6 +13,7 @@ User Interface
 Abilities
   ☐ Use huge-num
   ☐ Keyboard click
+  ☐ Deploy storybook on Netlify
   ✔ Define auto deploy yaml file @done(21-11-22 01:52)
 
 Refactors
