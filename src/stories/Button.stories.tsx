@@ -1,5 +1,6 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
+import ButtonDocumentations from './Button.docs.mdx';
 
 import { Button } from './Button';
 
@@ -13,6 +14,9 @@ export default {
   },
   parameters:{
     layout:'centered',
+    docs: {
+      page: ButtonDocumentations,
+    }
   },
 } as ComponentMeta<typeof Button>;
 
