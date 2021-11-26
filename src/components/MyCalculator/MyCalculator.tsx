@@ -76,15 +76,6 @@ const MyCalculator = () => {
     setCalculated(true);
   }
 
-  const styles = {
-    btn: [
-      tw`w-20 h-20 bg-purple-200 border-4 border-white rounded-md shadow-inner text-5xl
-      cursor-pointer hover:text-white hover:bg-purple-300
-      transition-all duration-700`,
-      css`box-shadow: inset 0px 0px 8px 2px rgb(98 34 112 / 10%);`
-    ]
-  }
-  
   return (
     <>
       <h1 css={[tw`text-center text-6xl animate-pulse`, css`font-family: digital-7`]}>My Calculator</h1>
