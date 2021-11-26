@@ -11,9 +11,9 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     count: {
-      // control: "number",
+      control: "number",
       // control: "range",
-      control: { type: 'range', min: 0, max: 9, step: 1 }
+      // control: { type: 'range', min: 0, max: 9, step: 1 }
     },
   },
   parameters:{
@@ -52,6 +52,8 @@ Reset.args = {
   type: 'reset',
 };
 
+//////////////////////////////////////////////////////////////////
+
 export const All = () => {
   return (
     <>
@@ -75,7 +77,13 @@ export const All = () => {
   )
 }
 
-const RangeTemplate: ComponentStory<JSX.Element[]> = (args: any) => {
+//////////////////////////////////////////////////////////////////
+
+interface RangeTemplateArgsType {
+  count: number;
+}
+
+const RangeTemplate: ComponentStory<JSX.Element[]> = (args: RangeTemplateArgsType) => {
   const count = Math.min(9, args.count);
 
   const arr = [];
