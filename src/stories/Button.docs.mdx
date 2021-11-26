@@ -1,5 +1,5 @@
 import { Meta, Story, Canvas } from '@storybook/addon-docs';
-import Button from './Button';
+import Button from '../components/Button/Button';
 
 <Meta title="MDX/Button" component={Button} />
 
@@ -13,22 +13,28 @@ export const Template = (args) => <Button {...args} />
 - [Secondary](#secondary)
 - [Emad's Button](#emads-button)
 
-### Primary
+### Numbers from 0 to 9
 
 <Canvas>
-  <Story id="example-button--primary" />
+  <Story id="example-button--number" />
 </Canvas>
 
-### Secondary
+### Mathematic Operators
 
 <Canvas>
-  <Story id="example-button--secondary" />
+  <Story id="example-button--operator" />
 </Canvas>
 
-### Emad's Button
+### Equal Operator
 
 <Canvas>
-  <Story id="example-button--emad-story" />
+  <Story id="example-button--equal" />
+</Canvas>
+
+### Reset (C) Operator
+
+<Canvas>
+  <Story id="example-button--reset" />
 </Canvas>
 
 [Go to Emad's Button Story](?path=/story/example-button--emad-story)
