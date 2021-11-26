@@ -1,8 +1,13 @@
 User Interface
-  ✔ Use animation on buttons @done(21-11-22 01:38)
   ☐ Use pixels in bg
   ☐ Dark mode
   ☐ Define multiple UIs
+  ☐ Fix margin problem of Button component
+  ☐ Fix problem of range control for count variable
+  ☐ Separate Display component
+  ☐ Create some stories for Display component
+  ☐ Separate Title component
+  ✔ Use animation on buttons @done(21-11-22 01:38)
   ✔ use Storybook @done(21-11-26 21:56)
 
 Abilities
@@ -11,12 +16,13 @@ Abilities
   ✔ Define auto deploy yaml file @done(21-11-22 01:52)
 
 Refactors
-  ✔ Remove IDs @done(21-11-22 01:30)
   ☐ Use grid instead of flex
   ☐ Move calculation codes to separate files
-  ✔ Define button component @done(21-11-26 21:57)
   ☐ Migrate to PostCSS 8
-  ☐ Fix MDX importing
+  ✔ Remove IDs @done(21-11-22 01:30)
+  ✔ Define button component @done(21-11-26 21:57)
+  ✔ Fix MDX importing @done(21-11-26 23:53)
 
 Documents
+  ☐ Update Storybook Introduction page
   ✔ Add readme.md file @done(21-11-22 01:44)
