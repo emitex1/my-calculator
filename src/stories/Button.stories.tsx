@@ -11,6 +11,9 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
+  parameters:{
+    layout:'centered',
+  },
 } as ComponentMeta<typeof Button>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
@@ -38,4 +41,11 @@ export const Small = Template.bind({});
 Small.args = {
   size: 'small',
   label: 'Button',
+};
+
+export const EmadStory = Template.bind({});
+EmadStory.args = {
+  label: "Emad Button",
+  backgroundColor: "#FF00F0",
+  size: 'large'
 };
