@@ -3,6 +3,7 @@ import React from "react";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import tw from 'twin.macro'
 import {css} from '@emotion/react'
+import Button from "../Button/Button";
 
 const MyCalculator = () => {
   const [curExpr, setCurExpr] = React.useState('0');
@@ -92,27 +93,27 @@ const MyCalculator = () => {
         <div css={[tw`w-full bg-white text-gray-700 p-2.5 box-border text-5xl h-20 flex justify-end items-center`, css`font-family: digital-7`]} id="display">{replaceSigns(curExpr)}</div>
 
         <div id="buttons" tw="flex justify-center flex-wrap bg-white">
-          <button value="C" css={styles.btn} tw="w-40 bg-red-300" onClick={handleClear}>Clear</button>
-          <button value="/" css={styles.btn} tw="bg-indigo-200" onClick={handleOperators}>{DEVIDE_SIGN}</button>
-          <button value="*" css={styles.btn} tw="bg-indigo-200" onClick={handleOperators}>{MULTIPLY_SIGN}</button>
+          <Button type="reset" label="Clear" tw="w-40" onClick={handleClear} />
+          <Button type="operator" label={DEVIDE_SIGN} value="/" onClick={handleOperators} />
+          <Button type="operator" label={MULTIPLY_SIGN} value="*" onClick={handleOperators} />
 
-          <button value="7" css={styles.btn} onClick={handleNumbers}>7</button>
-          <button value="8" css={styles.btn} onClick={handleNumbers}>8</button>
-          <button value="9" css={styles.btn} onClick={handleNumbers}>9</button>
-          <button value="-" css={styles.btn} tw="bg-indigo-200" onClick={handleOperators}>-</button>
+          <Button type="number" label="7" onClick={handleNumbers} />
+          <Button type="number" label="8" onClick={handleNumbers} />
+          <Button type="number" label="9" onClick={handleNumbers} />
+          <Button type="operator" label="-" onClick={handleOperators} />
 
-          <button value="4" css={styles.btn} onClick={handleNumbers}>4</button>
-          <button value="5" css={styles.btn} onClick={handleNumbers}>5</button>
-          <button value="6" css={styles.btn} onClick={handleNumbers}>6</button>
-          <button value="+" css={styles.btn} tw="bg-indigo-200" onClick={handleOperators}>+</button>
+          <Button type="number" label="4" onClick={handleNumbers} />
+          <Button type="number" label="5" onClick={handleNumbers} />
+          <Button type="number" label="6" onClick={handleNumbers} />
+          <Button type="operator" label="+" onClick={handleOperators} />
 
-          <button value="1" css={styles.btn} onClick={handleNumbers}>1</button>
-          <button value="2" css={styles.btn} onClick={handleNumbers}>2</button>
-          <button value="3" css={styles.btn} onClick={handleNumbers}>3</button>
+          <Button type="number" label="1" onClick={handleNumbers} />
+          <Button type="number" label="2" onClick={handleNumbers} />
+          <Button type="number" label="3" onClick={handleNumbers} />
 
-          <button css={styles.btn} tw="h-40 bg-green-100" onClick={handleCalculate}>=</button>
-          <button value="0" css={styles.btn} tw="w-40 -my-20 -mx-10" onClick={handleNumbers}>0</button>
-          <button css={styles.btn} tw="-my-20 mx-10" onClick={handleDecimal}>.</button>
+          <Button type="equal" label="=" tw="h-40" onClick={handleCalculate} />
+          <Button type="number" label="0" tw="w-40 -my-20 -mx-10" onClick={handleNumbers} />
+          <Button type="number" label="." tw="-my-20 mx-10" onClick={handleDecimal} />
         </div>
       </div>
 
