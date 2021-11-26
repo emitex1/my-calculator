@@ -3,7 +3,7 @@ User Interface
   ☐ Use pixels in bg
   ☐ Dark mode
   ☐ Define multiple UIs
-  ☐ use Storybook
+  ✔ use Storybook @done(21-11-26 21:56)
 
 Abilities
   ☐ Use huge-num
@@ -14,8 +14,9 @@ Refactors
   ✔ Remove IDs @done(21-11-22 01:30)
   ☐ Use grid instead of flex
   ☐ Move calculation codes to separate files
-  ☐ Define button component
+  ✔ Define button component @done(21-11-26 21:57)
   ☐ Migrate to PostCSS 8
+  ☐ Fix MDX importing
 
 Documents
   ✔ Add readme.md file @done(21-11-22 01:44)
