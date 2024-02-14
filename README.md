@@ -2,7 +2,7 @@
 
 This is a sample calculator, just for testing some front-end libraries & frameworks
 
-[Live Demo on Github Pages](https://em-it.github.io/my-calculator)
+[Live Demo on Github Pages](https://emitex1.github.io/my-calculator)
 
 <!-- ![](/src/assets/images/logo.png) -->
 
@@ -21,6 +21,6 @@ This is a sample calculator, just for testing some front-end libraries & framewo
 
 * [Emad.Armoun@gmail.com](Emad.Armoun@gmail.com)
 
-* [LinkedIn profile](https://www.linkedin.com/in/em-it/)
+* [LinkedIn profile](https://www.linkedin.com/in/emitex/)
 
 ![](https://github.com/Em-IT/xanbilak/blob/master/xanbilak-fe/src/assets/images/me.jpg?raw=true)
